@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve demo --source-map",
+    "start": "ng serve demo",
     "build": "ng build && cp LICENSE dist/carousel && cp README.md dist/carousel",
     "test": "ng test carousel --watch false",
     "lint": "ng lint",
@@ -49,8 +49,6 @@
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jsdoc": "^44.2.4",
     "eslint-plugin-prefer-arrow": "1.2.2",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
@@ -61,7 +59,6 @@
     "prettier": "^2.2.0",
     "protractor": "~7.0.0",
     "ts-node": "^8.10.2",
-    "tsickle": "^0.46.3",
     "tslib": "^2.5.0",
     "typescript": "5.0.3"
   }
